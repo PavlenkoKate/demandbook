@@ -1,4 +1,4 @@
-name: Demand
+name: "Request"
 description: Raise a demand before you can order something
 label: [Demand, new]
 title: "[Demand]: raised for "
