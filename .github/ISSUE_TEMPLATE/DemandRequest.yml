@@ -10,8 +10,8 @@ body:
   attributes:
     label: Is it a production of new item or a repair of existing one?
     options:
-    - Production
-    - Repair
+    - label: Production
+    - label: Repair
   validations:
     required: true
 - type: checkboxes
@@ -19,8 +19,8 @@ body:
   attributes:
     label: From whom shall we source it?
     options:
-    - 3rd party
-    - Internal manufacturing
+    - label: 3rd party
+    - label: Internal manufacturing
   validations:
     required: true
 - type: input
