@@ -1,5 +1,4 @@
-
-name: Demand Request
+name: Bug Report
 description: Raise a demand before you can order something
 label: [Demand, new]
 title: "[Demand]: raised for "
