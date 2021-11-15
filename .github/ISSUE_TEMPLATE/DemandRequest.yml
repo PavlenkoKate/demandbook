@@ -10,8 +10,8 @@ body:
   attributes:
     label: Is it a production of new item or a repair of existing one?
     options:
-      - Production
-      - Repair
+    - Production
+    - Repair
   validations:
     required: true
 - type: checkboxes
