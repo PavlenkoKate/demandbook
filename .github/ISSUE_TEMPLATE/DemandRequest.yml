@@ -1,1 +1,46 @@
+name: Demand Request
+description: Raise a demand before you can order something
+label: [Demand, new]
+title: "[Demand] raised for "
+body:
+  - type: checkboxes
+    id: activity
+    attributes:
+      label: Is it a production of new item or a repair of existing one?
+      options:
+        - Production
+        - Repair
+    validations:
+      required: true
 
+ - type: checkboxes
+    id: activity
+    attributes:
+      label: From whom shall we source it?
+      options:
+        - label: 3rd party
+        - label: Internal manufacturing
+    validations:
+      required: true
+
+ - type: input
+    id: vendors
+    attributes:
+      label: Provide a list of potential providers
+
+
+ - type: input
+    id: quantity
+    attributes:
+      label: Provide required number of items
+
+
+ - type: input
+    id: delivery
+    attributes:
+      label: Provide expected delivery date (by when)
+
+ - type: input
+    id: file
+    attributes:
+      label: Please provide a link to ".step" file or technical drawing
