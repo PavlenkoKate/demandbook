@@ -19,8 +19,8 @@ body:
   attributes:
     label: From whom shall we source it?
     options:
-    - label: 3rd party
-    - label: Internal manufacturing
+    - 3rd party
+    - Internal manufacturing
   validations:
     required: true
 - type: input
