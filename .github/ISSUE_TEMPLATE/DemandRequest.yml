@@ -13,7 +13,7 @@ body:
     validations:
       required: true
 
- - type: checkboxes
+  - type: checkboxes
     id: activity
     attributes:
       label: From whom shall we source it?
@@ -23,19 +23,19 @@ body:
     validations:
       required: true
 
- - type: input
+  - type: input
     id: vendors
     attributes:
       label: Provide a list of potential providers
 
 
- - type: input
+  - type: input
     id: quantity
     attributes:
       label: Provide required number of items
 
 
- - type: input
+  - type: input
     id: delivery
     attributes:
       label: Provide expected delivery date (by when)
