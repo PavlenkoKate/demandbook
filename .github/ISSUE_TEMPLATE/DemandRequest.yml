@@ -6,7 +6,7 @@ assignees:
 - PavlenkoKate
 body:
 - type: checkboxes
-  id: activity
+  id: type
   attributes:
     label: Is it a production of new item or a repair of existing one?
     options:
