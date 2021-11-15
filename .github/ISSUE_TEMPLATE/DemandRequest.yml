@@ -44,6 +44,6 @@ body:
 - type: input
   id: file
   attributes:
-    label: Please provide a link to ".step" file or technical drawing
+    label: Please provide a link to .step file or technical drawing
   validations:
     required: false
